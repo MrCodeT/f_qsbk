@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "index-list": "/components/index/indexList",
+    "nav-bar": "/components/common/navbar",
+    "load-more": "/components/common/loadMore"
+  }
+}

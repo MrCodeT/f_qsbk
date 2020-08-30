@@ -1,0 +1,11 @@
+
+.wrapper.data-v-57280228 {
+	height: 100vh;
+}
+.swiper-wrap.data-v-57280228 {
+	height: calc(100% - 50px);
+}
+.list.data-v-57280228 {
+	height: 100%;
+}
+

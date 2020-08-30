@@ -1,0 +1,92 @@
+.commentList {
+		padding: 30rpx;
+	}
+	.commentList .c_left {
+		width: 100rpx;
+		flex-shrink: 0;
+		margin-right: 15rpx;
+	}
+	.commentList .c_left image {
+		width: 100%;
+		border-radius: 50%;
+	}
+	.commentList .c_right {
+		border-bottom: 1px solid #EEEEEE;
+		padding-bottom: 20rpx;
+	}
+	.name {
+		font-size: 35rpx;
+		color: #A0A0A0;
+	}
+	.name view {
+		padding: 5rpx 10rpx;
+		line-height: 25rpx;
+		font-size: 25rpx;
+		margin-left: 7rpx;
+		color: #fff;
+		border-radius: 30rpx;
+	}
+	.nan {
+		background-color: #44B3FF;
+	}
+	.nv {
+		background-color: #FF6A8D;
+	}
+	.guanzhu {
+		height: 35rpx;
+		line-height: 35rpx;
+		font-size: 30rpx;
+		padding: 10rpx 20rpx;
+		border-radius: 4px;
+		background-color: #F4F4F4;
+	}
+	.title {
+		font-size: 35rpx;
+		margin: 20rpx 0;
+	}
+	.content {
+		position: relative;
+	}
+	.content image {
+		width: 100%;
+		border-radius: 20rpx;
+	}
+	.play {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		color: #fff;
+		font-size: 150rpx;
+	}
+	.playinfo {
+		position: absolute;
+		bottom: 25rpx;
+		right: 10rpx;
+		border-radius: 50rpx;
+		padding: 0 25rpx;
+		font-size: 25rpx;
+		color: #fff;
+		background-color: rgba(0,0,0,.7);
+	}
+	.share {
+		background-color: #F7F7F7;
+		height: 150rpx;
+		overflow:hidden;
+	}
+	.share image {
+		width: 35%;
+		margin-right: 30rpx;
+		border-radius: 20rpx;
+		flex-shrink: 0;
+	}
+	.share view {
+		height: 100%;
+	}
+	.bottom {
+		font-size: 30rpx;
+		color: #BCBCBC;
+	}
+	.b_right view {
+		margin: 0 10rpx 0 17rpx;
+	}

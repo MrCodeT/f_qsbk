@@ -1,0 +1,17 @@
+.f {
+		display: flex;
+	}
+	.f_a {
+		display: flex;
+		align-items: center;
+	}
+	.f_a_jb {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.f_a_ja {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}

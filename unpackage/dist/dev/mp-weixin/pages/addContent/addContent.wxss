@@ -1,0 +1,28 @@
+
+.center {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0 auto;
+}
+.uni-textarea {
+	height: 500rpx;
+}
+.popup {
+	border-radius: 10rpx;
+	background-color: #fff;
+	padding: 15px;
+}
+.popup image {
+	width: 50%;
+	display: block;
+	margin: 0 auto 30rpx auto;
+}
+.popup button {
+	background-color: #FFE934;
+	margin-top: 30rpx;
+}
+

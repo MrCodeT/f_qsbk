@@ -1,0 +1,22 @@
+
+.tabbar.data-v-d3032cee {
+	height: 50px;
+}
+.uni-swiper-tab.data-v-d3032cee {
+	border-bottom: 1rpx solid #eeeeff;
+	height: 50px;
+}
+.swiper-tab-list.data-v-d3032cee {
+	color: #969696;
+}
+.active.data-v-d3032cee {
+	color: #343434 !important;
+}
+.active .line.data-v-d3032cee {
+	border-top: 6rpx solid #FEDE33;
+	border-bottom: 6rpx solid #FEDE33;
+	border-radius: 50rpx;
+	width: 70rpx;
+	margin: auto;
+}
+
