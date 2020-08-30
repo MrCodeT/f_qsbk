@@ -238,6 +238,16 @@
 							}
 						}
         }
+				// 帮助
+        ,{
+            "path" : "pages/mySet/setFeedBack",
+            "style" : {
+            	"navigationBarTitleText":"帮助",
+            	"app-plus":{
+            		"scrollIndicator":"none"
+            	}
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

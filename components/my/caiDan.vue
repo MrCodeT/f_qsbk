@@ -26,17 +26,17 @@
 
 <style scoped>
 	.caidan_item:first-child{
-		border-top: 1px solid #F7F7F7;
+		border-top: 1px solid #e5e5e5;
 	}
 	.caidan_item {
 		height: 120upx;
 		width: 100%;
-		border-bottom: 1px solid #F7F7F7;
+		border-bottom: 1px solid #e5e5e5;
 	}
 	.caidan_item view {
 		margin-right: 10upx;
 	}
 	.avtive {
-		background-color: #F4F4F4;
+		background-color: #e5e5e5;
 	}
 </style>

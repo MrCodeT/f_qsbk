@@ -19,10 +19,10 @@
 					{tit:'账号与安全',url:'./setPassword'},
 					{tit:'绑定邮箱',url:'./setEmail'},
 					{tit:'编辑资料',url:'./setMyInfo'},
-					{tit:'小纸条'},
-					{tit:'清除缓存'},
-					{tit:'意见反馈'},
-					{tit:'关于仿糗百'}
+					{tit:'小纸条',url:''},
+					{tit:'清除缓存',url:''},
+					{tit:'帮助',url:'./setFeedBack'},
+					{tit:'关于仿糗百',url:''}
 				]
 			}
 		},

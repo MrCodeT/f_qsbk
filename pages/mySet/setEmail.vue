@@ -83,7 +83,7 @@
 		padding: 0 30upx;
 	}
 	input {
-		border-bottom: 1px solid #F2F2F2;
+		border-bottom: 1px solid #e5e5e5;
 		padding: 30upx 0;
 	}
 	button {

@@ -55,7 +55,7 @@
 		<button type="default"@tap="submit">完成</button>
 		
 		<!-- 城市三级选择器 -->
-		<mpvue-city-picker ref="mpvueCityPicker" themeColor="#007AFF" :pickerValueDefault="cityPickerValueDefault" 
+		<mpvue-city-picker ref="mpvueCityPicker" themeColor="#FFD620" :pickerValueDefault="cityPickerValueDefault" 
 		@onCancel="oncancel" @onConfirm="onConfirm" />
 	</view>
 </template>
@@ -181,11 +181,11 @@
 		padding: 0 30upx;
 	}
 	.info_item:first-child {
-		border-top: 1px solid #F7F7F7;
+		border-top: 1px solid #e5e5e5;
 	}
 	.info_item {
 		padding: 20upx;
-		border-bottom: 1px solid #F7F7F7;
+		border-bottom: 1px solid #e5e5e5;
 	}
 	.info_item .left {
 		color: #9B9B9B;
