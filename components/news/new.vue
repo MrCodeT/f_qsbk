@@ -32,23 +32,23 @@
 
 <style scoped>
 	.left image {
-		width: 200rpx;
-		border-radius: 10rpx;
-		margin-right: 25rpx;
+		width: 200upx;
+		border-radius: 10upx;
+		margin-right: 25upx;
 	}
 	.right .tit {
-		font-size: 35rpx;
+		font-size: 35upx;
 	}
 	.right .content, .bottom{
 		color: #BFBFBF;
-		font-size: 25rpx;
+		font-size: 25upx;
 	}
 	.bottom view{
-		margin-right: 10rpx;
+		margin-right: 10upx;
 	}
 	.wrap{
 		border-bottom: 1px solid #F5F5F5;
-		padding-bottom: 20rpx;
-		margin-top: 20rpx;
+		padding-bottom: 20upx;
+		margin-top: 20upx;
 	}
 </style>

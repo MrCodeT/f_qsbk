@@ -41,18 +41,18 @@
 	}
 	.left {
 		color: #FF971A;
-		margin-left: 10rpx;
+		margin-left: 10upx;
 	}
 	.right {
-		margin-left: 70rpx;
+		margin-left: 70upx;
 	}
 	.center {
 		display: flex;
 		margin: 0 auto;
 	}
 	.center view {
-		margin: 0 10rpx;
-		font-size: 35rpx;
+		margin: 0 10upx;
+		font-size: 35upx;
 		color: #969696;
 	}
 	.active {
@@ -60,9 +60,9 @@
 	}
 	.active .line {
 		position: relative;
-		border-top: 6rpx solid #FEDE33;
-		border-bottom: 6rpx solid #FEDE33;
-		border-radius: 50rpx;
+		border-top: 6upx solid #FEDE33;
+		border-bottom: 6upx solid #FEDE33;
+		border-radius: 50upx;
 		margin: auto;
 	}
 </style>

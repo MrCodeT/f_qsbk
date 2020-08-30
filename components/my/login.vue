@@ -21,19 +21,19 @@
 
 <style scoped>
 	.login {
-		margin-bottom: 40rpx;
+		margin-bottom: 40upx;
 	}
 	.login view image {
-		width: 120rpx;
-		height: 120rpx;
+		width: 120upx;
+		height: 120upx;
 		border-radius: 50%;
-		margin-right: 15rpx;
+		margin-right: 15upx;
 	}
 	.login .center {
 		text-align: left;
 	}
 	.login .center .name {
-		font-size: 35rpx;
+		font-size: 35upx;
 	}
 	.login .center .day {
 		color: #A5A5A5;

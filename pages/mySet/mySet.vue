@@ -18,7 +18,7 @@
 				list: [
 					{tit:'账号与安全',url:'./setPassword'},
 					{tit:'绑定邮箱',url:'./setEmail'},
-					{tit:'编辑资料'},
+					{tit:'编辑资料',url:'./setMyInfo'},
 					{tit:'小纸条'},
 					{tit:'清除缓存'},
 					{tit:'意见反馈'},
@@ -34,10 +34,10 @@
 
 <style>
 .setWrap {
-	padding: 0 30rpx;
+	padding: 0 30upx;
 }
 button {
-	margin: 30rpx;
+	margin: 30upx;
 	background-color: #FFD620 !important;
 }
 </style>

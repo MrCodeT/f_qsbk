@@ -200,7 +200,7 @@
 </script>
 <style>
 	.body {
-		padding: 0 30rpx;
+		padding: 0 30upx;
 	}
 	.mengban {
 		position: fixed;

@@ -31,19 +31,19 @@
 	.menu {
 		position: fixed;
 		right: 0;
-		top: 13rpx;
+		top: 13upx;
 		z-index: 2000;
 		box-sizing: border-box;
-		width: 400rpx;
+		width: 400upx;
 		background-color: #fff;
 		border: 1px solid #F0F0F0;
 		box-shadow: 3px 3px 8px #E9E9E9,3px -3px 8px #E9E9E9,-3px 3px 8px #E9E9E9,-3px -3px 8px #E9E9E9;
 	}
 	.menu view {
-		padding: 10rpx 0 0 20rpx;
+		padding: 10upx 0 0 20upx;
 	}
 	.menu view view {
-		margin-right: 20rpx;
+		margin-right: 20upx;
 	}
 	.active {
 		background-color: #ccc;

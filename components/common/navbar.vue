@@ -47,7 +47,7 @@
 		height: 50px;
 	}
 	.uni-swiper-tab {
-		border-bottom: 1rpx solid #eeeeff;
+		border-bottom: 1upx solid #eeeeff;
 		height: 50px;
 	}
 	.swiper-tab-list {
@@ -57,10 +57,10 @@
 		color: #343434 !important;
 	}
 	.active .line {
-		border-top: 6rpx solid #FEDE33;
-		border-bottom: 6rpx solid #FEDE33;
-		border-radius: 50rpx;
-		width: 70rpx;
+		border-top: 6upx solid #FEDE33;
+		border-bottom: 6upx solid #FEDE33;
+		border-radius: 50upx;
+		width: 70upx;
 		margin: auto;
 	}
 </style>

@@ -28,25 +28,25 @@
 
 <style>
 	.hot {
-		margin: 20rpx;
+		margin: 20upx;
 		border-top: 1px solid #F2F2F2;
 		border-bottom: 1px solid #F2F2F2;
-		padding: 20rpx 0;
+		padding: 20upx 0;
 	}
 	.hot .right{
 		color: #dfe4ea;
 	}
 	.bottom{
-		margin: 10rpx;
+		margin: 10upx;
 	}
 	.bottom view {
 		background-color: #F7F7F7;
 		color: #A1A1A1;
-		width: 100rpx;
-		height: 60rpx;
-		font-size: 30rpx;
-		line-height: 60rpx;
+		width: 100upx;
+		height: 60upx;
+		font-size: 30upx;
+		line-height: 60upx;
 		text-align: center;
-		border-radius: 15rpx;
+		border-radius: 15upx;
 	}
 </style>

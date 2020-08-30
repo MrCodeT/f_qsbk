@@ -80,6 +80,9 @@
 					});
 					this.loading = false
 					this.disabled = false
+				}else {
+					this.loading = false
+					this.disabled = false
 				}
 			}
 		}
@@ -88,14 +91,14 @@
 
 <style>
 	.setP {
-		padding: 0 30rpx;
+		padding: 0 30upx;
 	}
 	input {
 		border-bottom: 1px solid #F2F2F2;
-		padding: 30rpx 0;
+		padding: 30upx 0;
 	}
 	button {
-		margin: 30rpx;
+		margin: 30upx;
 		background-color: #FFD620 !important;
 	}
 </style>

@@ -226,8 +226,8 @@
 		height: 100%;
 	}
 	.nothing image {
-		width: 500rpx;
-		height: 500rpx;
+		width: 500upx;
+		height: 500upx;
 		display: block;
 		position: absolute;
 		margin: auto;
@@ -237,8 +237,8 @@
 		right: 0;
 	}
 	.search {
-		margin: 20rpx;
-		border-radius: 10rpx;
+		margin: 20upx;
+		border-radius: 10upx;
 		background-color: #F4F4F4;
 	}
 	.pla{
@@ -246,17 +246,17 @@
 		text-align: center;
 	}
 	.swiper{
-		margin: 20rpx;
+		margin: 20upx;
 	}
 	.swiper image {
 		display: block;
 		margin: 0 auto;
-		border-radius: 10rpx;
+		border-radius: 10upx;
 	}
 	.new{
-		margin: 20rpx;
+		margin: 20upx;
 	}
 	.tt {
-		margin-bottom: 20rpx;
+		margin-bottom: 20upx;
 	}
 </style>

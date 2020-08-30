@@ -82,31 +82,31 @@
 
 <style>
 .myWrap {
-	padding: 0 30rpx;
+	padding: 0 30upx;
 }
 .top {
 	text-align: center;
-	font-size: 35rpx;
+	font-size: 35upx;
 	font-weight: bold;
-	margin-bottom: 40rpx;
+	margin-bottom: 40upx;
 }
 .bottom {
-	font-size: 35rpx;
+	font-size: 35upx;
 	justify-content: center;
-	margin-bottom: 40rpx;
+	margin-bottom: 40upx;
 }
 .dataList {
 	color: #989898;
 }
 .dataList view {
 	text-align: center;
-	font-size: 30rpx;
+	font-size: 30upx;
 	color: #000;
-	line-height: 30rpx;
+	line-height: 30upx;
 }
 .adv image {
 	width: 100%;
-	border-radius: 10rpx;
-	margin: 30rpx 0;
+	border-radius: 10upx;
+	margin: 30upx 0;
 }
 </style>

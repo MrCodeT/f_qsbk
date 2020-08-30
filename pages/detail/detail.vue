@@ -66,10 +66,10 @@
 <style>
 	.plWrap {
 		box-sizing: border-box;
-		padding: 0 20rpx;
+		padding: 0 20upx;
 	}
 	.pinglun {
-		font-size: 30rpx;
+		font-size: 30upx;
 		font-weight: bold;
 	}
 </style>

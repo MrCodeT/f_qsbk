@@ -269,8 +269,8 @@
 		height: 100%;
 	}
 	.nothing image {
-		width: 500rpx;
-		height: 500rpx;
+		width: 500upx;
+		height: 500upx;
 		display: block;
 		position: absolute;
 		margin: auto;

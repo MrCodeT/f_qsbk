@@ -29,12 +29,12 @@
 		border-top: 1px solid #F7F7F7;
 	}
 	.caidan_item {
-		height: 120rpx;
+		height: 120upx;
 		width: 100%;
 		border-bottom: 1px solid #F7F7F7;
 	}
 	.caidan_item view {
-		margin-right: 10rpx;
+		margin-right: 10upx;
 	}
 	.avtive {
 		background-color: #F4F4F4;

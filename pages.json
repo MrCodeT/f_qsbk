@@ -202,21 +202,40 @@
         ,{
             "path" : "pages/mySet/mySet",
             "style" : {
-							"navigationBarTitleText":"设置"
+							"navigationBarTitleText":"设置",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
 						}
         }
 				// 修改密码
         ,{
             "path" : "pages/mySet/setPassword",
             "style" : {
-							"navigationBarTitleText":"修改密码"
+							"navigationBarTitleText":"修改密码",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
 						}
         }
 				// 绑定邮箱
         ,{
             "path" : "pages/mySet/setEmail",
             "style" : {
-							"navigationBarTitleText":"绑定邮箱"
+							"navigationBarTitleText":"绑定邮箱",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
+						}
+        }
+				// 编辑资料
+        ,{
+            "path" : "pages/mySet/setMyInfo",
+            "style" : {
+							"navigationBarTitleText":"编辑资料",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
 						}
         }
     ],

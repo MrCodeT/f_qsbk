@@ -34,33 +34,33 @@
 <style scoped>
 	.paperWrap {
 		border-bottom: 1px solid #F0F0F0;
-		padding-bottom: 30rpx;
+		padding-bottom: 30upx;
 	}
 	.left {
-		margin-top: 30rpx;
+		margin-top: 30upx;
 		flex-shrink: 0;
 	}
 	.left image {
-		width: 120rpx;
+		width: 120upx;
 		border-radius: 50%;
-		margin-right: 25rpx;
+		margin-right: 25upx;
 	}
 	.right {
 		flex: 1;
 	}
 	.top {
-		margin-top: 30rpx;
+		margin-top: 30upx;
 	}
 	.name {
-		font-size: 40rpx;
+		font-size: 40upx;
 	}
 	.time {
 		color: #D6D6D6;
 	}
 	.content {
-		width: 400rpx;
+		width: 400upx;
 		color: #A3A3A3;
-		font-size: 30rpx;
+		font-size: 30upx;
 		overflow:hidden;
 		text-overflow:ellipsis;
 		white-space:nowrap;

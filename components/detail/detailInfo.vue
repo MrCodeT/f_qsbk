@@ -94,9 +94,9 @@
 	}
 	.time {
 		color: #CCCCCC;
-		margin-top: 10rpx;
+		margin-top: 10upx;
 	}
 	.swiper .swiperItme {
-		border-radius: 20rpx;
+		border-radius: 20upx;
 	}
 </style>

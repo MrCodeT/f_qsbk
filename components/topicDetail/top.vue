@@ -26,30 +26,30 @@
 <style scoped>
 .top {
 		width: 100%;
-		height: 300rpx;
+		height: 300upx;
 		overflow: hidden;
 	}
 	.top image {
 		width: 100%;
-		filter: blur(15rpx);
+		filter: blur(15upx);
 	}
 	.content {
-		padding: 0 30rpx;
+		padding: 0 30upx;
 	}
 	.c_top image {
-		width: 200rpx;
-		border-radius: 20rpx;
-		margin: -100rpx 20rpx 20rpx 0;
+		width: 200upx;
+		border-radius: 20upx;
+		margin: -100upx 20upx 20upx 0;
 	}
 	.c_top view {
-		font-size: 40rpx;
+		font-size: 40upx;
 	}
 	.c_center {
 		color: #D1D1D1;
-		margin-bottom: 20rpx;
+		margin-bottom: 20upx;
 	}
 	.c_bottom {
 		color: #A3A3A3;
-		font-size: 30rpx;
+		font-size: 30upx;
 	}
 </style>

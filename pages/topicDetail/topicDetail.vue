@@ -149,7 +149,7 @@
 		height: 100vh;
 	}
 	.swiper-wrap {
-		height: calc(100% - 620rpx);
+		height: calc(100% - 620upx);
 	}
 	.list {
 		height: 100%;
@@ -158,8 +158,8 @@
 		height: 100%;
 	}
 	.nothing image {
-		width: 500rpx;
-		height: 500rpx;
+		width: 500upx;
+		height: 500upx;
 		display: block;
 		position: absolute;
 		margin: auto;

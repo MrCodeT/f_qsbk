@@ -49,6 +49,14 @@
 					});
 					return false
 				}
+				// 验证邮箱
+				let ePattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+				if(!ePattern.test(this.email)) {
+					uni.showToast({
+						title: '你这不是邮箱呀'
+					});
+					return false
+				}
 				return true
 			},
 			// 提交
@@ -61,6 +69,9 @@
 					});
 					this.loading = false
 					this.disabled = false
+				}else {
+					this.loading = false
+					this.disabled = false
 				}
 			}
 		}
@@ -69,14 +80,14 @@
 
 <style>
 	.setE {
-		padding: 0 30rpx;
+		padding: 0 30upx;
 	}
 	input {
 		border-bottom: 1px solid #F2F2F2;
-		padding: 30rpx 0;
+		padding: 30upx 0;
 	}
 	button {
-		margin: 30rpx;
+		margin: 30upx;
 		background-color: #FFD620 !important;
 	}
 </style>

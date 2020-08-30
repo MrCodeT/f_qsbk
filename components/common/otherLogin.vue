@@ -18,12 +18,12 @@
 	.item {
 		text-align: center;
 		color: #FFFFFF;
-		margin-bottom: 40rpx;
+		margin-bottom: 40upx;
 	}
 	 .item view {
-		font-size: 70rpx;
+		font-size: 70upx;
 		border-radius: 50%;
-		width: 150rpx;
-		height: 150rpx;
+		width: 150upx;
+		height: 150upx;
 	}
 </style>

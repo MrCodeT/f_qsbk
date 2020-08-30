@@ -13,7 +13,7 @@
 <style scoped>
 	.loadText {
 		text-align: center;
-		padding: 10rpx;
+		padding: 10upx;
 		color: #AAAAAA;
 	}
 </style>

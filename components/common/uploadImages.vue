@@ -141,11 +141,11 @@
 
 <style>
 	.cell-pd {
-		padding: 22rpx 30rpx;
+		padding: 22upx 30upx;
 	}
 	
 	.list-pd {
-		margin-top: 50rpx;
+		margin-top: 50upx;
 	}
 	.uni-uploader__file {
 		position: relative;
@@ -157,7 +157,7 @@
 		z-index: 9;
 		background-color: rgba(0,0,0,.3);
 		color: #fff;
-		padding: 0 10rpx;
-		border-radius: 5rpx;
+		padding: 0 10upx;
+		border-radius: 5upx;
 	}
 </style>

@@ -106,51 +106,51 @@
 
 <style>
 	.index_list {
-		padding: 30rpx;
+		padding: 30upx;
 		border-bottom: 1px solid #F0F0F0;
 	}
 	.index_list>.top>.left {
 		color: #989898;
 	}
 	.index_list>.top>.left>image {
-		width: 100rpx;
+		width: 100upx;
 		border-radius: 50%;
-		margin-right: 15rpx;
+		margin-right: 15upx;
 	}
 	.index_list>.top>.right {
-		height: 50rpx;
-		padding: 10rpx 20rpx;
+		height: 50upx;
+		padding: 10upx 20upx;
 		border-radius: 4px;
 		background-color: #F4F4F4;
 	}
 	.index_list>.title {
-		font-size: 35rpx;
-		margin: 20rpx 0;
+		font-size: 35upx;
+		margin: 20upx 0;
 	}
 	.index_list>.content {
 		position: relative;
 	}
 	.index_list>.content>image {
 		width: 100%;
-		border-radius: 20rpx;
+		border-radius: 20upx;
 	}
 	.index_list>.content>.play {
 		position: absolute;
 		color: #fff;
-		font-size: 150rpx;
+		font-size: 150upx;
 	}
 	.index_list>.content>.playinfo {
 		position: absolute;
-		bottom: 10rpx;
-		right: 10rpx;
-		border-radius: 50rpx;
-		padding: 0 25rpx;
-		font-size: 25rpx;
+		bottom: 10upx;
+		right: 10upx;
+		border-radius: 50upx;
+		padding: 0 25upx;
+		font-size: 25upx;
 		color: #fff;
 		background-color: rgba(0,0,0,.7);
 	}
 	.index_list>.bottom>view>view, .index_list>.bottom>view>view>view {
-		margin-right: 15rpx;
+		margin-right: 15upx;
 	}
 	.active {
 		color: #FEDE33;

@@ -4,8 +4,7 @@
 		<uni-nav-bar :status-bar="true" left-icon="arrowleft" right-text="发布"
 		@clickLeft="back" @clickRight="release">
 			<view class="center" slot="default" @tap="yinsi">
-				{{item}}
-				<view class="icon iconfont icon-xialazhankai"></view>
+				{{item}}<view class="icon iconfont icon-xialazhankai"></view>
 			</view>
 		</uni-nav-bar>
 		<!-- 内容 -->
@@ -120,23 +119,23 @@
 		margin: 0 auto;
 	}
 	.uni-textarea {
-		height: 500rpx;
+		height: 500upx;
 	}
 	.uni-textarea textarea {
 		height: 100%;
 	}
 	.popup {
-		border-radius: 10rpx;
+		border-radius: 10upx;
 		background-color: #fff;
 		padding: 15px;
 	}
 	.popup image {
 		width: 50%;
 		display: block;
-		margin: 0 auto 30rpx auto;
+		margin: 0 auto 30upx auto;
 	}	
 	.popup button {
 		background-color: #FFE934;
-		margin-top: 30rpx;
+		margin-top: 30upx;
 	}
 </style>
