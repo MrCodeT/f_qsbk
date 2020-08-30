@@ -6,7 +6,7 @@
 			<!-- 第三方登录 -->
 			<other :other='other' />
 			<!-- 登录 -->
-			<view class="bottom f">账号密码登录<view class="icon iconfont icon-jinru" style="color: #ccc;"></view></view>
+			<view class="bottom f" @tap="goLogin">账号密码登录<view class="icon iconfont icon-jinru" style="color: #ccc;"></view></view>
 		</template>
 		<!-- 登陆后 -->
 		<template v-else>
@@ -75,7 +75,12 @@
 			}
 		},
 		methods: {
-			
+			// 跳转到登陆页面
+			goLogin() {
+				uni.navigateTo({
+					url: '../login/login'
+				});
+			}
 		}
 	}
 </script>

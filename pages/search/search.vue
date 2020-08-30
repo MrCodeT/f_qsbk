@@ -58,7 +58,6 @@
 		},
 		// 上拉触底事件
 		onReachBottom() {
-			console.log(1)
 			this.loadMore()
 		},
 		methods: {
@@ -109,7 +108,6 @@
 			},
 			// 上拉加载更多
 			loadMore() {
-				console.log(1)
 				if(this.listData.loadText !== '上拉加载更多') return
 				this.listData.loadText = '加载中...'
 				setTimeout(() => {

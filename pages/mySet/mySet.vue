@@ -22,7 +22,7 @@
 					{tit:'小纸条',url:''},
 					{tit:'清除缓存',url:''},
 					{tit:'帮助',url:'./setFeedBack'},
-					{tit:'关于仿糗百',url:''}
+					{tit:'关于仿糗百',url:'./setAbout'}
 				]
 			}
 		},
