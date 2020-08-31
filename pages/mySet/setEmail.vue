@@ -40,12 +40,14 @@
 				// 添加了禁用按钮的条件，验证层有些判断就不需要了
 				if(!this.email) {
 					uni.showToast({
-						title: '输入邮箱呀'
+						title: '输入邮箱呀',
+						icon: 'none'
 					});
 					return false
 				}else if(!this.password) {
 					uni.showToast({
-						title: '输入密码呀'
+						title: '输入密码呀',
+						icon: 'none'
 					});
 					return false
 				}
@@ -53,7 +55,8 @@
 				let ePattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 				if(!ePattern.test(this.email)) {
 					uni.showToast({
-						title: '你这不是邮箱呀'
+						title: '你这不是邮箱呀',
+						icon: 'none'
 					});
 					return false
 				}

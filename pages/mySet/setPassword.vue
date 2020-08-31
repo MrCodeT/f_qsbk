@@ -45,26 +45,32 @@
 				// 添加了禁用按钮的条件，验证层有些判断就不需要了
 				if(!this.oldPassword) {
 					uni.showToast({
-						title: '输一下旧密码呗'
+						title: '输一下旧密码呗',
+						icon: 'none'
 					});
 					return false
 				}else if(!this.newPassword) {
 					uni.showToast({
-						title: '输一下新密码呗'
+						title: '输一下新密码呗',
+						icon: 'none'
 					});
 					return false
 				}else if(this.oldPassword == this.newPassword) {
 					uni.showToast({
-						title: '你没改密码呀'
+						title: '你没改密码呀',
+						icon: 'none'
 					});
+					return false
 				}else if(!this.reNewPassword) {
 					uni.showToast({
-						title: '再来一次新密码'
+						title: '再来一次新密码',
+						icon: 'none'
 					});
 					return false
 				}else if(this.reNewPassword != this.newPassword) {
 					uni.showToast({
-						title: '两次密码不像呀'
+						title: '两次密码不像呀',
+						icon: 'none'
 					});
 					return false
 				}

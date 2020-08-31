@@ -1,7 +1,7 @@
 <template>
 	<view class="setWrap">
 		<!-- 列表 -->
-		<block v-for="(item,index) in list">
+		<block v-for="(item,index) in list" :key="index">
 			<cai-dan :item='item' />
 		</block>
 		<!-- 按钮 -->

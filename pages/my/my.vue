@@ -14,7 +14,7 @@
 		</template>
 		<!-- 数据 -->
 		<view class="data f_a_ja">
-			<block v-for="(item, index) in dataList">
+			<block v-for="(item, index) in dataList" :key="index">
 				<view class="dataList"><view>{{item.count}}</view>{{item.tit}}</view>
 			</block>
 		</view>
@@ -22,7 +22,7 @@
 		<view class="adv"><image src="../../static/img/demo20.jpg" mode="widthFix"></image></view>
 		<!-- 菜单 -->
 		<view class="caidan">
-			<block v-for="(item,index) in caiDan">
+			<block v-for="(item,index) in caiDan" :key="index">
 				<cai-dan :item='item' />
 			</block>
 			<template v-if="isLogin">
@@ -61,9 +61,9 @@
 					day: 0
 				},
 				other: [
-					{icon:'icon-weixin',color:'#2BD19B'},
-					{icon:'icon-QQ',color:'#2CAEFC'},
-					{icon:'icon-xinlangweibo',color:'#FC7729'}
+					{name:'weixin',icon:'icon-weixin',color:'#2BD19B'},
+					{name:'qq',icon:'icon-QQ',color:'#2CAEFC'},
+					{name:'sinaweibo',icon:'icon-xinlangweibo',color:'#FC7729'}
 				]
 			}
 		},

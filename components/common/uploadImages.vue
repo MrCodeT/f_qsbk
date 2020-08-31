@@ -62,7 +62,8 @@
 				
 				if (this.imageList.length === 9) {
 					uni.showToast({
-						title: '最多添加9张图片'
+						title: '最多添加9张图片',
+						icon: 'none'
 					});
 					return
 				}
