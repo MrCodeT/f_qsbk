@@ -43,7 +43,7 @@
 		components:{caiDan,login,other},
 		data() {
 			return {
-				isLogin:false,
+				isLogin:true,
 				caiDan: [
 					{icon:'icon-liulan',tit:'浏览历史',color:'#45B3FF'},
 					{icon:'icon-huiyuanvip',tit:'糗事认证',color:'#FF7434'}

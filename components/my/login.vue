@@ -1,5 +1,5 @@
 <template>
-	<view class="login f_a_jb">
+	<view class="login f_a_jb" @tap="goSpace">
 		<view class="f">
 			<image :src="login.img" mode="widthFix"></image>
 			<view class="center">
@@ -15,6 +15,14 @@
 	export default {
 		props: {
 			login: Object
+		},
+		methods: {
+			// 进入个人空间
+			goSpace() {
+				uni.navigateTo({
+					url: '../../pages/space/space/space'
+				});
+			}
 		}
 	}
 </script>

@@ -118,6 +118,7 @@
 			swiperChange(e) {
 				this.navbarIndex = e.detail.current
 			},
+			// 上拉加载更多
 			loadMore(index) {
 				if(this.listData[index].loadText !== '上拉加载更多') return
 				this.listData[index].loadText = '加载中...'

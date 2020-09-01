@@ -268,6 +268,23 @@
 							}
 						}
         }
+				// 个人空间
+        ,{
+            "path" : "pages/space/space/space",
+            "style" : {
+							"navigationBarTitleText": "个人空间",
+							"app-plus": {
+								"titleNView": {
+									"type": "transparent",
+									"buttons": [
+										{
+											"type":"menu"
+										}
+									]
+								}
+							}
+						}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
