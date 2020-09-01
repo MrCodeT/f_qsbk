@@ -1,7 +1,8 @@
 <script>
+	import lib from './common/lib.js'
 	export default {
 		onLaunch: function() {
-			console.log('App Launch')
+			lib.NetWork.on()
 		},
 		onShow: function() {
 			console.log('App Show')
